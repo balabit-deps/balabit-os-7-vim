@@ -1,3 +1,12 @@
+vim (2:8.0.1453-1ubuntu1.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Arbitrary code execution
+    - debian/patches/CVE-2019-12735.patch: disallow
+      sourcing a file in the sandbox in src/getchar.c
+    - CVE-2019-12735
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Thu, 06 Jun 2019 14:31:41 -0300
+
 vim (2:8.0.1453-1ubuntu1) bionic; urgency=medium
 
   * Merge with Debian; remaining changes:

@@ -9,3 +9,4 @@ ubuntu-grub-syntax.patch
 update-upstart-syntax.patch
 ubuntu-mouse-off.patch
 ubuntu-series-support.patch
+CVE-2019-12735.patch
