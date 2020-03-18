@@ -1,3 +1,20 @@
+vim (2:8.0.1453-1ubuntu1.3) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Application crash
+    - debian/patches/CVE-2018-20786.patch: handle out of
+      memory in src/libvterm/src/state.c, src/libvterm/src/vterm.c,
+      src/terminal.c.
+    - CVE-2018-20786
+  * SECURITY UPDATE: Access after free
+    - debian/patches/CVE-2019-20079.patch: avoid using 'wp'
+      after autocommands in src/window.c, src/testdir/test_autocmd.vim.
+    - debian/patches/patch-8.1.1192-mode-is-not-cleared*.patch:
+      Clear the mode when redraw_cmdline is set in src/globals.h,
+      src/screen.c.
+    - CVE-2019-20079
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Wed, 18 Mar 2020 15:29:15 -0300
+
 vim (2:8.0.1453-1ubuntu1.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Arbitrary code execution
