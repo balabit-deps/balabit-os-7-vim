@@ -13,3 +13,5 @@ CVE-2019-12735.patch
 CVE-2018-20786.patch
 patch-8.1.1192-mode-is-not-cleared-when-leaving-Inse.patch
 CVE-2019-20079.patch
+CVE-2019-20807-1.patch
+CVE-2019-20807-2.patch

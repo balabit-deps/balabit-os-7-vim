@@ -1,3 +1,16 @@
+vim (2:8.0.1453-1ubuntu1.4) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: rvim restricted mode circumvention
+    - debian/patches/CVE-2019-20807-1.patch: disable using interfaces in
+      restricted mode in runtime/doc/starting.txt, src/evalfunc.c,
+      src/ex_cmds.c, src/ex_docmd.c, src/if_perl.xs,
+      src/testdir/Make_all.mak, src/testdir/test_restricted.vim.
+    - debian/patches/CVE-2019-20807-2.patch: missing some changes for Ex
+      commands in src/ex_cmds.h.
+    - CVE-2019-20807
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 13 Oct 2020 11:49:09 -0400
+
 vim (2:8.0.1453-1ubuntu1.3) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Application crash
